@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Loading...</title>
+  <style>body { background: #1a0b2e; }</style>
+</head>
+<body>
+<script>
+  const screens = ["screen1.html", "screen2.html", "screen3.html"];
+  const choice = screens[Math.floor(Math.random() * screens.length)];
+  window.location.replace(choice);
+</script>
+</body>
+</html>
